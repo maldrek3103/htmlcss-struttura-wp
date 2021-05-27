@@ -1,4 +1,4 @@
-/* General */
+/* Reset */
 
 *{
     margin: 0;
@@ -6,14 +6,28 @@
     box-sizing: border-box;
 }
 
+/* General */
+
 .clearfix::after {
     content: '';
     display: table;
     clear: both;
 }
 
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /* Main */
 
-body{
-    background-color: aquamarine;
+#navbar{
+    height: 100px;
+    background-color: violet;
+    margin-bottom: 20px;
 }
+.main-header{
+    height: 400px;
+    background-color: goldenrod;
+}
+
