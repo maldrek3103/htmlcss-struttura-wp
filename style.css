@@ -35,10 +35,12 @@
 
 .main-section{
     margin: 20px 0 10px 0;
+    background-color: darkcyan;
+    height: 450px;
 }
 .content{
     background-color: lightskyblue;
-    height: 350px;
+    height: 360px;
     float: left;
 }
 
@@ -65,4 +67,13 @@
 }
 .right.side.content{
     margin-left: 10px;
+}
+
+/* Footer */
+
+footer{
+    height: 40px;
+    width: 100%;
+    background-color: blueviolet;
+
 }
